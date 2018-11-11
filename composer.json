@@ -1,0 +1,21 @@
+{
+    "name": "xetam/storefront",
+    "description": "Storefront package for xetam.",
+    "keywords": ["lavalite", "Storefront"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xetam\\Storefront\\": "src/Xetam/Storefront"
+        }
+    },
+    "minimum-stability": "dev"
+}
