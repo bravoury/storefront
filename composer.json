@@ -17,5 +17,15 @@
             "Xetam\\Storefront\\": "src/Xetam/Storefront"
         }
     },
+       "extra": {
+        "laravel": {
+            "providers": [
+                "Xetam\\Storefront\\Providers\\StorefrontServiceProvider"
+            ],
+            "aliases": {
+                "StorefrontDavy"       : "Xetam\\Storefront\\Facades\\Storefront"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
